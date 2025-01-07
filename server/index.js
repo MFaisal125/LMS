@@ -23,7 +23,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://lms-iota-inky.vercel.app",
     credentials: true,
   })
 );
