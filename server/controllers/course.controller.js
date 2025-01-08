@@ -11,7 +11,7 @@ export const createCourse = async (req, res) => {
     const { courseTitle, category } = req.body;
     if (!courseTitle || !category) {
       return res.status(400).json({
-        message: "Course title and category is also required.",
+        message: "Course title and category is required.",
       });
     }
 
